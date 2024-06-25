@@ -15,7 +15,7 @@ section .bss
 
 section .text
 	global _main
-	extern _printf, _scanf, _strcpy
+	extern _printf, _scanf
 
 _main:
 	push ebp
