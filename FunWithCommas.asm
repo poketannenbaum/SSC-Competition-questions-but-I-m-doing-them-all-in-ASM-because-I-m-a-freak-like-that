@@ -53,6 +53,7 @@ append_input:
 	cmp dword [wordcount], 0
 	je skip_comma
 	lea esi, [comma]
+
 copy_comma:
 	mov al, [esi]
 	mov [edi], al
